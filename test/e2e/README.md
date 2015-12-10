@@ -1,5 +1,12 @@
 #End 2 End Testing (Protractor)
+
 To run the end-2-end tests against the application you use [Protractor](https://github.com/angular/protractor).
+
+As a one-time setup, download webdriver.
+
+```
+npm run update-webdriver
+```
 
 ## Starting the Web Server
 In either case you will need the application to be running via the web-server.
@@ -13,13 +20,8 @@ The application should now be available at `http://localhost:8000/app/index.html
 
 ## Testing with Protractor
 
-As a one-time setup, download webdriver.
-```
-npm run update-webdriver
-```
-
 Start the Protractor test runner using the e2e configuration:
 
 ```
-npm run protractor
+npm run e2e
 ```
