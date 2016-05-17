@@ -3,7 +3,9 @@
   "private": true,
   "name": "angular-phonecat",
   "description": "A tutorial application for AngularJS",
-  "repository": "https://github.com/angular/angular-phonecat",
+  "repository": {
+    "url": "https://github.com/angular/angular-phonecat"
+  },
   "license": "MIT",
   "devDependencies": {
     "bower": "^1.3.1",
@@ -12,11 +14,14 @@
     "karma-chrome-launcher": "^0.1.4",
     "karma-firefox-launcher": "^0.1.3",
     "karma-jasmine": "~0.1.0",
+    "lodash": "^3.10.1",
     "open": "0.0.5",
     "protractor": "^3.0.0",
     "protractor-jasmine2-screenshot-reporter": "^0.1.7",
     "shelljs": "^0.2.6",
-    "tmp": "0.0.23"
+    "tmp": "0.0.23",
+    "typescript": "^1.7.3",
+    "underscore.string": "^3.2.2"
   },
   "scripts": {
     "postinstall": "bower install && tsd install",

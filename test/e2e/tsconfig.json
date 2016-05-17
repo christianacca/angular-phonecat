@@ -1,0 +1,8 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"target": "ES5",
+		"watch": false,
+		"outDir": "../../build/test/e2e/js"
+	}
+}

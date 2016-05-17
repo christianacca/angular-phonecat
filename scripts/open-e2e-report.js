@@ -1,2 +1,2 @@
 var open = require("open");
-open("./build/reports/e2e.html");
+open("./build/test/e2e/reports/e2e.html");

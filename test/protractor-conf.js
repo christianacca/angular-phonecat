@@ -4,7 +4,7 @@ exports.config = {
   allScriptsTimeout: 11000,
 
   specs: [
-    'e2e/*.js'
+    '../build/test/e2e/js/*.js'
   ],
 
   capabilities: {
@@ -24,7 +24,7 @@ exports.config = {
   onPrepare: function() {
       jasmine.getEnv().addReporter(
         new HtmlScreenshotReporter({
-          dest: './build/reports/',
+          dest: './build/test/e2e/reports/',
           filename: 'e2e.html',
           ignoreSkippedSpecs: true
         })

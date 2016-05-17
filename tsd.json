@@ -5,13 +5,7 @@
   "path": "typings",
   "bundle": "typings/tsd.d.ts",
   "installed": {
-    "jquery/jquery.d.ts": {
-      "commit": "f8af639bf29b2b00e5d27ce93c0f046564b8525c"
-    },
     "angular-protractor/angular-protractor.d.ts": {
-      "commit": "f8af639bf29b2b00e5d27ce93c0f046564b8525c"
-    },
-    "angularjs/angular.d.ts": {
       "commit": "f8af639bf29b2b00e5d27ce93c0f046564b8525c"
     },
     "jasmine/jasmine.d.ts": {
@@ -19,6 +13,15 @@
     },
     "selenium-webdriver/selenium-webdriver.d.ts": {
       "commit": "f8af639bf29b2b00e5d27ce93c0f046564b8525c"
+    },
+    "lodash/lodash.d.ts": {
+      "commit": "40c60850ad6c8175a62d5ab48c4e016ea5b3dffe"
+    },
+    "underscore.string/underscore.string.d.ts": {
+      "commit": "40c60850ad6c8175a62d5ab48c4e016ea5b3dffe"
+    },
+    "underscore/underscore.d.ts": {
+      "commit": "40c60850ad6c8175a62d5ab48c4e016ea5b3dffe"
     }
   }
 }
